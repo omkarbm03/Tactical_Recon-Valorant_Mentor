@@ -1,0 +1,16 @@
+1. Ensure you have Python installed on your system. If not, download and install it from the official Python website: python.org.
+
+2. Install the required libraries by running the following commands in your terminal or command prompt:
+
+pip install opencv-python
+pip install ultralytics
+
+3. Save the provided code in a Python file with a .py extension, for example, object_detection.py.
+
+4. Update the video_path variable in the code with the path to your desired video file. Make sure to specify the correct file path, including the file name and extension. For example:video_path = './path/to/your/video_file.mp4'
+
+5. Update the weights_path variable in the code with the path to your trained weights file. Ensure to specify the correct file path, including the directory and file name. For example:weights_path = './path/to/your/trained_weights.pt'
+
+6. Open a terminal or command prompt, navigate to the directory containing your Python file, and execute the script by running the following command:python object_detection.py
+
+7. The script will start running and display the video with object detections. Press the 'q' key on your keyboard to exit the script.
